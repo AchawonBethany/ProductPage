@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap');
+
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Antic Slab', serif;
+}
+body {
+  font-size: 17px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  min-height: 80vh;
+  height: 100%;
+}
+.background {
+  min-height: 1000px;
+  width: 100%;
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  overflow: hidden;
+}
+#header {
+  padding-top: 10px;
+  height: 298px;
+  border-bottom: 3px solid black;
+  background-image: url(images/wall.jpg);
+  position: relative;
+}
+#center {
+  background-image: url(images/pink.jpg);
+  border: 5px solid black;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  float: left;
+  position: relative;
+}
+#header-img {
+  height: 200px;
+  width: 200px;
+  border-radius: 75%;
+  margin: 10px 10px 0 10px;
+  padding: 0;
+  border: 8px solid black;
+}
+#nav-bar {
+  padding-top: 8px;
+  height: 42px;
+  float: right;
+  font-size: 1em;
+  font-weight: lighter;
+  background-color: black;
+}
+#nav-bar ul {
+  margin: 0;
+  padding: 0;
+}
+#nav-bar li {
+  display: inline;
+  margin: 0;
+  font-family: 'Architects Daughter', cursive;
+}
+#nav-bar a {
+  display: inline;
+  padding: .5em;
+  color: red;
+  font-weight: bold;
+}
+#nav-bar li a:hover {
+  background-color:#FF1493;
+  color: black;
+  border: 3px solid black;
+}
+.flex-container {
+  display: flex;
+  min-height: 680px;
+  width: 100%;
+  position: relative;
+  margin: 0;
+  padding: 20px 0 0 0;
+  background-color: black;
+  align-items: center;
+}
+.banner1 img {
+  height: 100%;
+  width: 320px;
+}
+#banner2 {
+  margin: 20px;
+  height: 90%;
+  padding: 20px;
+  border: 5px solid black;
+  background-image: url(images/pink.jpg);
+}
+/*Container 1*/
+.banner1 {
+  background-color: black;
+  height: 600px;
+  width: 21%;
+  margin: 20px;
+  align-items: center;
+  flex-shrink: 0;
+}
+/*Container 2*/
+.banner2-style {
+  order: 2;
+  width: 50%;
+  height: 550px;
+  margin: 0 40px 0 20px;
+  border: 5px solid red;
+  background-image: url(images/wall.jpg); 
+  background-size: cover;
+  flex-shrink: 0;
+}
+/*Container 3*/
+.form {
+  order: 3;
+  border: 5px solid red;
+  height: 600px;
+  width: 220px;
+  margin: 20px 0 0 0;
+  padding: 10px;
+}
+h2 {
+  color: red;
+  text-align: center;
+}
+label {
+  color: red;
+}
+#design {
+  height: 300px;
+  border: 3px solid red;
+  margin: 20px 10px 10px 10px;
+  background-image: url(images/pink.jpg);
+  background-size: cover;
+}
+#subscribe {
+  margin: 20% 45% 20% 45%;
+  width: 50% 50%;
+  height: 230px;
+  text-align: center;
+  background-color: black;
+  padding: 5px;
+  border: 3px solid red; 
+}
+p {
+  color: red;
+}
+h2 {
+  text-align: center;
+  background-color: black;
+  padding: 5px;
+  border: 3px solid red; 
+}
+#video {
+  border: 3px solid red;
+  max-width:560px;
+  margin:0 auto;
+  padding:5px;
+}
+
+
+
+
+
+
+ 
